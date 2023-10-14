@@ -33,4 +33,6 @@ inputs:
     description: Set app VM memory (defaults to 256 megabytes)
   count:
     description: Set app VM count to the given value (defaults to 1)
+  deploy_extra_flags:
+    description: Extra flags to pass to flyctl deploy command
 
